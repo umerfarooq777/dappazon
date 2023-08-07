@@ -34,12 +34,14 @@ const Navigation = ({ account, setAccount }) => {
                     Connect
                 </button>
             )}
-
+            {true?
             <ul className='nav__links'>
-                <li><a href="#Clothing & Jewelry">Clothing & Jewelry</a></li>
-                <li><a href="#Electronics & Gadgets">Electronics & Gadgets</a></li>
-                <li><a href="#Toys & Gaming">Toys & Gaming</a></li>
+            <li><a href="#Clothing & Jewelry">Clothing & Jewelry</a></li>
+            <li><a href="#Electronics & Gadgets">Electronics & Gadgets</a></li>
+            <li><a href="#Toys & Gaming">Toys & Gaming</a></li>
             </ul>
+        :null}
+            
         </nav>
     );
 }
